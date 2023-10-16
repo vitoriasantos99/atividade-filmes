@@ -1,0 +1,27 @@
+.img-exibe-perfil{
+    width: 250px;
+    height: 300px;
+    border-radius: 2%;
+}
+.img-exibe-perfil:hover{
+    width: 300px;
+    height: 350px;
+    opacity: 0.8;
+    transition: 1.0s;
+} 
+h4{
+    font-family: 'Times New Roman', Times, serif;  
+}
+.container{
+    display: inline-block;
+    position: relative;
+
+}
+.container figcaption{
+    color: white;
+    position: absolute;
+    top: 1%;
+    background-color: red; 
+    border-bottom-right-radius: 8px;
+    width: 80px;
+}
